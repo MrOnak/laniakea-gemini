@@ -10,7 +10,7 @@
 ~ anmd ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~II~~~~~~~~~~I~~~~~~~~~
 ```
 
-=> /index.gmi blog
+=> /index.gmi home
 => /journal.gmi journal
 => /about.gmi about
 => /whoami.gmi whoami
