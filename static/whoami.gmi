@@ -1,0 +1,36 @@
+```
+                                       .* ~                             
+                                      § ~.                              
+                                     .                                  
+                                _____U____       cR O)                  
+                               /\ ^  ^  ^ \     C~*)')D       ..        
+                         _    /  \  ^  ^   \   (v('Iu/o)    o°O o)      
+                         0   /    \_________\    \ I u       \I/o       
+             I==I==I==I  |   | [] |  o   o |      II          I/        
+~ anmd ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~II~~~~~~~~~~I~~~~~~~~~
+```
+
+=> /index.gmi index
+=> /journal.gmi blog
+=> /about.gmi about
+=> /whoami.gmi whoami
+
+# whoami
+
+## a few things about me
+
+Hi!
+I'm Dominique. On the interwebs you sometimes find me as Mr Onak. Or as Anoikis Nomads, [ANMD].
+
+I am male ...my first name sometimes makes this statement neccessary. I am superbly happily married and in my mid fourties.
+
+I wouldn't say I'm intellectual but I love to learn things, for the sake of learning. This means that throughout my life there have been plenty of unfinished experiments, projects and attempted hobbies. Each was started with honest curiosity about something and eventually abandoned when that something was explored well enough and what remained of the project turned into more tedium than joy. That's fine.
+
+I'm a techy and a nerd. Quirky things fascinate me.
+
+Topics that are important to me these days are:
+
+* Reducing my own technological footprint. Selfhosting and the use of single board computers rather than the cloud, laptops and desktops.
+* Unsubscribing from consumerism. Making things instead of buying them.
+* Eating more healthy, buying more local produce.
+* Reconnecting myself with the real world. Growing a little of my own food.
