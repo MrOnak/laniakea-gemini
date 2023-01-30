@@ -24,7 +24,7 @@ I'm not particularily social. Nor do I think that I have unique bits of wisdom t
 
 But I do feel that I should, _need_ to add my voice to some discussions.
 
-Here I don't try to sell things. I won't preach or attempt to convince, but share my views and opinions.
+I don't try to sell things. I won't preach or attempt to convince, but share my views and opinions.
 
 ## tech
 This website is one hundred percent static and hand-crafted. There are no cookies to consent to, no tracking, no ads. Not even JavaScript.
