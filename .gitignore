@@ -1,4 +1,3 @@
 build.sh
-conf
-partials/
+conf/
 templates/
