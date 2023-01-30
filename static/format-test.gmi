@@ -14,6 +14,7 @@ Testing some Markdown text styles, none of them should work here: _underlined_, 
 * as far as I know,
 * these do work
 * but you cannot nest lists in gemtext
+* but maybe that really isn't needed?
 
 - Testing a list with a dash for a list icon
 - As far as I know this will not work
