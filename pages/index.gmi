@@ -1,0 +1,12 @@
+<= partials/header.tmpl
+
+# Laniakea
+
+## Welcome!
+
+Hi! 
+
+I'm Dominique.
+
+This is mostly a public diary that I write for myself as much as for anyone who might want to read it. See the about page for more on that. Feel free to browse the Journal. Enjoy.
+
