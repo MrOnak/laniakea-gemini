@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+imageName="grisu48/orion:latest"
+containerName=orion
+localConfroot=$(pwd)"/conf"
+localWebroot=$(pwd)"/static"
+
+case $1 in
+  gen|generate)
+    awk -f scripts/includes.awk pages/index.gmi > static/index.gmi
+    awk -f scripts/includes.awk pages/about.gmi > static/about.gmi
+    awk -f scripts/includes.awk pages/whoami.gmi > static/whoami.gmi
+    ;;
+  start)
+    docker run -d --name $containerName \
+      --volume $localConfroot:/conf:ro \
+      --volume $localWebroot:/data:ro \
+      --rm -p 1965:1965 $imageName
+    ;;
+  stop)
+    docker stop $containerName
+    ;;
+  *) 
+    echo "Usage $0 (gen(erate)|start|stop)"
+    exit 1;
+    ;;
+esac
+
