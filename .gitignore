@@ -1,3 +1,4 @@
 conf/
+pages/journal.tmpl
 pages/journal/*.tmpl
 test/

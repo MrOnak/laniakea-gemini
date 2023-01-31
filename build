@@ -7,19 +7,16 @@ localWebroot=$(pwd)"/static"
 
 case $1 in
   gen|generate)
-    # build static pages
-    awk -f scripts/includes.awk pages/index.gmi > static/index.gmi
-    awk -f scripts/includes.awk pages/about.gmi > static/about.gmi
-    awk -f scripts/includes.awk pages/whoami.gmi > static/whoami.gmi
-    # build journal
+    # avoid clutter
     rm pages/journal/*.tmpl
     rm static/journal/*.gmi
     # build templates for each entry and a .gmi from those
     awk -f scripts/journal-entries.awk
     # build the journal index
     awk -f scripts/journal-index.awk
-    awk -f scripts/includes.awk pages/journal/index.tmpl > static/journal/index.gmi
-    # build journal page with newest 10 entries
+    awk -f scripts/journal-latest.awk
+    # build all "main" pages
+    awk -f scripts/pages.awk
     ;;
   start)
     docker run -d --name $containerName \

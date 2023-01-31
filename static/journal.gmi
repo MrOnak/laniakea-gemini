@@ -167,10 +167,3 @@ My mindset has begun to change from wanting the latest shiney gadget, toward vie
 => https://github.com/MrOnak/madness madness markdown server (HTTP)
 => https://en.wikipedia.org/wiki/Soroban Japanese abacus, the Soroban
 
-## backlinks
-
-=> /index.gmi index
-=> /journal.gmi blog
-=> /about.gmi about
-=> /whoami.gmi whoami
-

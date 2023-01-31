@@ -1,0 +1,73 @@
+```
+                                       .* ~                             
+                                      § ~.                              
+                                     .                                  
+                                _____U____       cR O)                  
+                               /\ ^  ^  ^ \     C~*)')D       ..        
+                         _    /  \  ^  ^   \   (v('Iu/o)    o°O o)      
+                         0   /    \_________\    \ I u       \I/o       
+             I==I==I==I  |   | [] |  o   o |      II          I/        
+~ anmd ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~II~~~~~~~~~~I~~~~~~~~~
+```
+
+=> /index.gmi home
+=> /journal.gmi journal
+=> /about.gmi about
+=> /whoami.gmi whoami
+
+# my journal
+
+## 2023-01-15
+
+Musings about simplicity
+
+In summer last year I did realize how very complex and _off_ my life had become. My password manager listed several _hundred_ entries. I used to have over a dozen gmail accounts. Multiple redundant accounts for services I rarely used. People linked on social media that I couldn't remember how I met them and why we were linked.
+
+I spent hours daily mindlessly looking at Instagram posts and websites, deleting countless emails selling this or informing me about that, on one site or another. For what?
+
+What I didn't spend time on anymore were real people or any real-life activity for that matter. The COVID-19 pandemic certainly didn't help, but I was never very social.
+
+Yet, there was and still is that dream of turning my, our, life around. Reconnect with reality and other human beings. We want to simplify our lives, focus more on people and things that matter. Develop skills. Move to a smaller place, out of the city and into a more rural setup. Buy less, make more. Be less dependent on the internet and big tech. Walk the road toward being more eco-friendly. Reduce our amount of waste, electricity- and water consumption. 
+
+Some tiny steps have been made since then. I realized that I need to clean up my digital life first, to make mental room for any change. I've spend decades creating this current state. It will take some time to untangle, reduce, simplify, identify and keep only those parts that are worth keeping.
+
+So probably, on the outside not much has changed yet. But I have...
+
+* ...stopped gaming, with the exception of one mobile game.
+* ...delved into the rabbit hole of self hosting. Move stuff out of the cloud and back onto a machine that I own, administer and mold to my needs. This journey has just begun, there is still plenty to clean up, downgrade, simplify. Currently this has made my life more complex. I'm learning, trying, changing things. This complexity is temporary.
+* ...deleted a dozen or so email accounts
+* ...unsubscribed from Twitter and every Facebook / Meta platform and service that I used. By doing so I have temporarily lost a few relevant people but I have gained time and mental space. I will reconnect.
+* ...gotten off a few online services and wrote a few tools on my own.
+* ...collaborated in tiny capacity with a few open source projects
+* ...moved largely to Raspberry Pis and text-based applications as my computing platform. My main computer including 2 monitors, mouse, keyboard and desk light now consumes around 50 W compared to previously needing 150 W for the desktop compter alone.
+
+Regarding non-virtual / digital things: I've gotten rid off an aquarium that I had gotten during the onset of COVID. I've started to learn how to use the Soroban for calculus and I plan to build my own. I had tried to grow some herbs, chilis and paprikas on the balcony. That was largely unsuccessful, I need to learn how to work with the seasons better and be more conscious to cook with ingredients in mind that are currently available.
+
+I've stopped spending money on my Eurorack synthesizer and largely stopped reading music gear websites, or viewing / watching / following music influencers. I don't need more music gear, time to get off that seductive drip system.
+
+I've largely stopped buying cheap. I value well-crafted, durable things more.
+
+I did start to learn aquarell painting and did enjoy it. Recently I have stopped again. This is something to pick up once more in 2023
+
+I did read one book ("Earth abides" by George R. Steward) last year. Book as in paper.
+
+We build a small but nice vinyl collection of actually good music. Unsubscribed Spotify and Amazon Music in return.
+
+My wife has filled one leather bound book with all contact information of all relevant people. She also wrote a whole bunch of christmas cards and stocked up on letter paper.
+
+I've started to invest our money more and hopefully smarter.
+
+My mindset has begun to change from wanting the latest shiney gadget, toward viewing simplicity as superior. This is the way forward. But the road is rough.
+ 
+### links
+
+=> https://arstechnica.com/science/2023/01/i-disconnected-from-the-electric-grid-for-8-months-in-manhattan/ Inspiring article on living off-the-grid - in Manhattan
+=> https://www.reddit.com/r/selfhosting /r/selfhosting
+=> https://github.com/MrOnak/ my github. tools I wrote
+=> https://github.com/MrOnak/madness madness markdown server (HTTP)
+=> https://en.wikipedia.org/wiki/Soroban Japanese abacus, the Soroban
+
+----
+
+=> /journal/index.gmi see all my articles
+

@@ -19,5 +19,6 @@ BEGIN {
     fileName = gensub(".*/([^/]+)$", "\\1", "g", files[dates[n - i + 1]]);
     print gensub(/\.article$/, ".gmi", 1, "=> " fileName) >> "pages/journal/index.tmpl";
   }
+  system("awk -f scripts/includes.awk pages/journal/index.tmpl > static/journal/index.gmi");
 }
 

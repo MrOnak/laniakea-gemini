@@ -1,0 +1,24 @@
+```
+                                       .* ~                             
+                                      § ~.                              
+                                     .                                  
+                                _____U____       cR O)                  
+                               /\ ^  ^  ^ \     C~*)')D       ..        
+                         _    /  \  ^  ^   \   (v('Iu/o)    o°O o)      
+                         0   /    \_________\    \ I u       \I/o       
+             I==I==I==I  |   | [] |  o   o |      II          I/        
+~ anmd ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~II~~~~~~~~~~I~~~~~~~~~
+```
+
+=> /index.gmi home
+=> /journal.gmi journal
+=> /about.gmi about
+=> /whoami.gmi whoami
+
+# all journals
+
+This is a chronological list of all journal entries.
+
+=> 2023-01-26-flu.gmi
+=> 2023-01-21-spot-the-mistake.gmi
+=> 2023-01-15-musings-about-simplicity.gmi
