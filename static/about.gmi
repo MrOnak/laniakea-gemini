@@ -27,7 +27,11 @@ But I do feel that I should, _need_ to add my voice to some discussions.
 I don't try to sell things. I won't preach or attempt to convince, but share my views and opinions.
 
 ## tech
-This website is one hundred percent static and hand-crafted. There are no cookies to consent to, no tracking, no ads. Not even JavaScript.
+This website is one hundred percent static and hand-crafted. It is hosted on a pow-power device running in a docker image less than 3 MB in size, on roughly 3 MB of memory. I love it.
+
+=> https://github.com/grisu48/orion grisu48/orion
+
+I do like the fact that in gemini space there are no cookies to consent to, no tracking, no ads, no JavaScript.
 
 So here it is just you, me, and our thoughts. You can feel safe here. Grab a tea, get comfy and stay a while.
 
