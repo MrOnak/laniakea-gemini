@@ -20,13 +20,13 @@ We had it explain Dark Matter and Dark Energy in layman's terms and as far as I 
 
 We had it write a poem about a stuffed toy. It also wrote a comparative analysis between MacBeth and Othello for us. According to my wife, an english teacher, the bot did alright. Alright in the sense that it was factually sound and would have passed off as homework from a child. Now we're both secretly waiting until one of her school kids hand in an essay written by ChatGPT which will be factually wrong. It's a matter of time, for sure.
 
-The other day I used it to write AWK scripts. This was tricky but ultimately successful. I do have a decent understanding of programming in all sorts of languages but I don't know AWK at all so I couldn't give ChatGPT a headstart. Instead I started with a simple task and gradually asked the bot to improve the code - much the same process as I would use, I _love_ iterative design / fail-fast.
+The other day I used it to write AWK scripts. This was tricky but ultimately successful. I do have a decent understanding of programming in all sorts of languages but I don't know AWK at all so I couldn't give ChatGPT a headstart. Instead I started with a simple task and gradually asked the bot to improve the code - much the same process as I would follow if I was writing the code myself, I _love_ iterative design / fail-fast.
 
 Initially the bot would generate code that would throw syntax errors. When pointed out, the bot excused itself (sic!) and corrected the code. At one point I asked it to write a recursion. It didn't really do that but changed the code to run the same code twice. When pointed out that this wouldn't "infinitely" recurse, again, the bot excused itself (sic!) and implemented a recursive function.
 
 Ultimatelly I was able to have the bot iterate the code into what I needed.
 
-The other night I used ChatGPT to learn more about IPTABLES and how to write firewall directives for my selfhosted setup. The bot never really wrote the correct directives but quizzing it about what this or that part of the rule did it consistently gave helpful replies and I was able to write the rules myself.
+On another occasion I used ChatGPT to learn more about IPTABLES and how to write firewall directives for my selfhosted setup. The bot never really wrote the correct directives but quizzing it about what this or that part of a rule did, it consistently gave helpful replies and I was able to write the rules myself.
 
 So yeah... ChatGPT is good. I'm quite sure I'll use it as a learning tool from now on.
 
