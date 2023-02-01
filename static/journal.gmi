@@ -17,7 +17,8 @@
 
 # Laniakea
 
-## ChatGPT
+## 2023-01-31
+### ChatGPT
 
 Me and my wife have done some experiments with ChatGPT recently. 
 
@@ -49,7 +50,6 @@ The other night I used ChatGPT to learn more about IPTABLES and how to write fir
 So yeah... ChatGPT is good. I'm quite sure I'll use it as a learning tool from now on.
 
 ## 2023-01-26
-
 ### The flu
 
 Oh the joys. I felt the first symptoms of coming down with something on Monday. Somehow I coughed and struggled through a four hour workshop that had already been postponed a few times and pretty much collapsed into bed immediately after dinner. You know, man-flu.
@@ -110,7 +110,6 @@ The task for now is to forward DNS requests to our adblocker: From the wireguard
 But man, IPTABLES are hard. I know only very little about networking itself so writing these rules is more guesswork than anything else. I've been reading loads of documentation and asked for help on reddit but so far I'm not really making progress. It is frustrating. I've been at this for a couple of weeks now. Granted, usually I have an hour of consecutive time and a complex subject like this isn't really suitable for that. Now that I'm down with the flu I do have more time but my brain is in power saving mode so it's not any easier.
 
 ## 2023-01-21
-
 ### Spot the mistake
 
 Simplicity can mean different things to different people. I particularily like this one:
@@ -149,8 +148,7 @@ Of course, this is me. If you do not understand databases and instead are a mast
 => https://lipanski.com/posts/smallest-docker-image-static-website micro httpd docker image
 
 ## 2023-01-15
-
-Musings about simplicity
+### Musings about simplicity
 
 In summer last year I did realize how very complex and _off_ my life had become. My password manager listed several _hundred_ entries. I used to have over a dozen gmail accounts. Multiple redundant accounts for services I rarely used. People linked on social media that I couldn't remember how I met them and why we were linked.
 
