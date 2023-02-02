@@ -34,11 +34,11 @@ A digital example is old 8-bit computer graphics and how far Masters of the art 
 
 My own CLI todo application falls well within what I consider a simple tool. It does what I need it to do, and no more. 50 lines of shell script is all that was required for it. With some calls to _man_ I will always be able to understand every aspect of it and change it if needed.
 
-In the same vain, I can relate to the appeal of websites driven by Markdown. Where the content is stored in human readable text files rather than SQL databases, rendering into modern websites on the fly with the help of a tool chain. In fact, when I started to think of creating Laniakea, I did some research into static site generators, and eventually decided _fuck it_, I'll write everything by hand.
+In the same vein, I can relate to the appeal of websites driven by Markdown. Where the content is stored in human readable text files rather than SQL databases, rendering into modern websites on the fly with the help of a tool chain. In fact, when I started to think of creating Laniakea, I did some research into static site generators, and eventually decided _fuck it_, I'll write everything by hand.
 
 Why is that? I couldn't find a tool chain that was simple and that did Markdown to HTML conversion in a way that I liked. I'm sure there is something out there and I simply didn't look hard enough.
 
-But what I found was a very different understanding of 'simplicity'. Take Jekyll for example. It is the site generator used by Github Pages but you can use it yourself, there even is a docker image. I do like docker images. Unfortunatelly the default docker image is over 300 megabyte. Excuse me?! I'm sure Jekyll can do amazing things while converting Markdown to HTML, but 300 MB is... a lot. There is complexity under the hood that no average being will ever grasp.
+But what I found was a very different understanding of ‘simplicity’. Take Jekyll for example. It is the site generator used by Github Pages but you can use it yourself, there even is a docker image. I do like docker images. Unfortunatelly the default docker image is over 300 megabyte. Excuse me?! I'm sure Jekyll can do amazing things while converting Markdown to HTML, but 300 MB is… a lot. There is complexity under the hood that no average being will ever grasp.
 
 On the other end of the spectrum we find a hand-crafted docker image of busybox httpd that is smaller than 100 _kilobyte_. Now, that is simple.
 
