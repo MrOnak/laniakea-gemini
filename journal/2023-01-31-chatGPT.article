@@ -1,4 +1,4 @@
-## 2023-01-31
+# 2023-01-31
 ### ChatGPT
 
 Me and my wife have done some experiments with ChatGPT recently. 
@@ -14,7 +14,7 @@ It is a statistics engine, after all. Thank god.
 
 But it is good in exploring factual situations, even if they're hypothetical.
 
-At one point we were having a conversation with ChatGPT on potentially life bearing moons of Jupiter ("Europa") and quizzing the bot on specifics of the subsurface ocean, the thickness of the ice on the surface, why there is liquid water to begin with, ... Finally we tried to get it to come up with specifics of a human habitat in that subsurface ocean. It didn't really get into the details of what is required but I'm quite sure better questioning from our end would have improved the results.
+At one point we were having a conversation with ChatGPT on potentially life bearing moons of Jupiter (“Europa”) and quizzing the bot on specifics of the subsurface ocean, the thickness of the ice on the surface, why there is liquid water to begin with, … Finally we tried to get it to come up with specifics of a human habitat in that subsurface ocean. It didn't really get into the details of what is required but I'm quite sure better questioning from our end would have improved the results.
 
 We had it explain Dark Matter and Dark Energy in layman's terms and as far as I can tell (I'm a space nerd but not an astrophysicist) it got it right.
 
@@ -28,5 +28,5 @@ Ultimatelly I was able to have the bot iterate the code into what I needed.
 
 On another occasion I used ChatGPT to learn more about IPTABLES and how to write firewall directives for my selfhosted setup. The bot never really wrote the correct directives but quizzing it about what this or that part of a rule did, it consistently gave helpful replies and I was able to write the rules myself.
 
-So yeah... ChatGPT is good. I'm quite sure I'll use it as a learning tool from now on.
+So yeah… ChatGPT is good. I'm quite sure I'll use it as a learning tool from now on.
 
