@@ -1,0 +1,68 @@
+```
+                                       .* ~                             
+                                      § ~.                              
+                                     .                                  
+                                _____U____       cR O)                  
+                               /\ ^  ^  ^ \     C~*)')D       ..        
+                         _    /  \  ^  ^   \   (v('Iu/o)    o°O o)      
+                         0   /    \_________\    \ I u       \I/o       
+             I==I==I==I  |   | [] |  o   o |      II          I/        
+~ anmd ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~II~~~~~~~~~~I~~~~~~~~~
+```
+
+=> /index.gmi home
+=> /journal.gmi journal
+=> /about.gmi about
+=> /whoami.gmi whoami
+
+# my journal
+
+## 2023-02-04
+### on quality
+
+Just a quick one today: A big “Dankeschön” to Michael Nordmeyer. He unknowingly reminded me through one of his posts that gemini is in fact UTF-8 and that this opens up the possibility to use proper typography. 
+
+I am absolutely certain that the vast majority of users / readers won't even notice the subtle differences, but it gives me a great deal of joy. Let us all thrive to bring some good old-fashioned quality back, shall we?
+
+So here we have them and their usage: 
+
+ellipsis           : …
+* in quotation, an ellipsis signifies omitted words and sentences
+* faltering speech or a pause
+
+hyphen             : -
+* indicates breaks within words that wrap at end of line
+* connects compound words like mass-produced
+* connects grouped numbers like a phone number 555-1234-4642
+
+n-dash             : –
+* joins numbers in a range (from–to) 5–12
+* joins words that describe a range: July–October
+
+m-dash             : —
+* sets apart a unique idea, an inserted thought.
+
+lastly, the quotes:
+* left double quote  : “
+* right double quote : ”
+* left single quote  : ‘
+* right single quote : ’
+
+Of course we can take this a step or three forward... UTF-8 also provides latin script letters in 𝑖𝑡𝑎𝑙𝑖𝑐𝑠, 𝐛𝐨𝐥𝐝, u͟n͟d͟e͟r͟l͟i͟n͟e͟d͟ and s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶. The downside of those being that they fix the font to being serif, sans-serif or whatever you chose — usually that decision should be given to the client, not the server.
+
+I'll be pondering the use of those, the usual Markdown _underline_ and *emphasis* do work fine in my opinion, even though gemtext doesn't define these as having meaning and thus clients usually won't do anything with it.
+
+What do you all think about this? Maybe you've already come up with a similar — or very different — solution?
+
+So that is it… go and visit Michael Nordmeyer on his own page, it is a good one.
+
+----
+𝕃𝕚𝕟𝕜𝕤
+
+=> gemini://michaelnordmeyer.com/gemlog/2023-01-30-i-use-proper-typography-in-gemtext.gmi Michael Nordmeyer
+=> https://yaytext.com/ Yaytext, copy & paste a text in various Unicode styles.
+
+----
+
+=> /journal/index.gmi see all my articles
+

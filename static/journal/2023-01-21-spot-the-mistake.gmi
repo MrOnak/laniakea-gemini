@@ -48,7 +48,8 @@ If I were to replace a database-driven website such as Wordpress with one based 
 
 Of course, this is me. If you do not understand databases and instead are a master with Node.js, your perspective might well be a very different one.
 
-### links
+----
+𝕃𝕚𝕟𝕜𝕤:
 
 => https://www.youtube.com/watch?v=aMcJ1Jvtef0 8-bit graphics mastery
 => https://github.com/MrOnak/cli_todo my simple todo appeal
