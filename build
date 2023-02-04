@@ -8,8 +8,9 @@ localWebroot=$(pwd)"/static"
 case $1 in
   gen|generate)
     # avoid clutter
-    rm pages/journal/*.tmpl
+    rm pages/journal/2*.tmpl
     rm static/journal/*.gmi
+    rm partials/journal-entries.partial
     # build templates for each entry and a .gmi from those
     awk -f scripts/journal-entries.awk
     # build the journal index

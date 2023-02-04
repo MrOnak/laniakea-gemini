@@ -13,15 +13,15 @@ BEGIN {
     dates[++i] = date;
   }
   n = asort(dates);
-  # generate .tmpl file for each article
+
   for (i = 1; i <= n; i++) {
     fileName = gensub(".*/([^/]+)$", "\\1", "g", files[dates[n - i + 1]]);
     tmplName = gensub(/\.article$/, ".tmpl", 1, fileName);
     gmiName  = gensub(/\.article$/, ".gmi", 1, fileName);
-
-    print "<= partials/header.journal.tmpl" > "pages/journal/" tmplName;
+    # generate .tmpl file for each article
+    print "<= partials/header.journal.partial" > "pages/journal/" tmplName;
     print "<= "files[dates[n - i + 1]] >> "pages/journal/" tmplName;
-    print "<= partials/footer.journal.tmpl" >> "pages/journal/" tmplName;
+    print "<= partials/footer.journal.partial" >> "pages/journal/" tmplName;
     # now call another awk script to generate the .gmi from the .tmpl
     system("awk -f scripts/includes.awk pages/journal/" tmplName " > static/journal/" gmiName);
   }

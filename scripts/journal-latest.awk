@@ -15,20 +15,21 @@ BEGIN {
     dates[++i] = date;
   }
   n = asort(dates);
-  # generate journal.tmpl file of newest 10 articles
-  print "<= partials/header.tmpl" > "pages/journal.tmpl";
+  # generate template header
+  print "<= partials/header.partial" > "pages/journal.tmpl";
   print "" > "pages/journal.tmpl";
   print "# Laniakea" > "pages/journal.tmpl";
   print "" > "pages/journal.tmpl";
-
+  # add links to newest 10 articles
   for (i = 1; i <= n && i <= articleNum; i++) {
     fileName = gensub(".*/([^/]+)$", "\\1", "g", files[dates[n - i + 1]]);
     tmplName = gensub(/\.article$/, ".tmpl", 1, fileName);
     gmiName  = gensub(/\.article$/, ".gmi", 1, fileName);
     print "<= "files[dates[n - i + 1]] >> "pages/journal.tmpl";
   }
+  # add footer if needed
   if (n > articleNum) {
-    print "<= partials/footer.journal.tmpl" >> "pages/journal.tmpl";
+    print "<= partials/footer.journal.partial" >> "pages/journal.tmpl";
   }
 }
 

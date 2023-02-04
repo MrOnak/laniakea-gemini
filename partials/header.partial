@@ -10,17 +10,4 @@
 ~ anmd ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~II~~~~~~~~~~I~~~~~~~~~
 ```
 
-=> /index.gmi home
-=> /journal.gmi journal
-=> /about.gmi about
-=> /whoami.gmi whoami
-
-# all journals
-
-This is a chronological list of all journal entries.
-
-=> 2023-02-04-quality.gmi
-=> 2023-01-31-chatGPT.gmi
-=> 2023-01-26-flu.gmi
-=> 2023-01-21-spot-the-mistake.gmi
-=> 2023-01-15-musings-about-simplicity.gmi
+<= partials/nav.partial

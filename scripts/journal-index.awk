@@ -14,10 +14,9 @@ BEGIN {
   }
   n = asort(dates);
   # generate journal index
-  print "<= partials/header.journal-index.tmpl" > "pages/journal/index.tmpl";
   for (i = 1; i <= n; i++) {
     fileName = gensub(".*/([^/]+)$", "\\1", "g", files[dates[n - i + 1]]);
-    print gensub(/\.article$/, ".gmi", 1, "=> " fileName) >> "pages/journal/index.tmpl";
+    print gensub(/\.article$/, ".gmi", 1, "=> " fileName) >> "partials/journal-entries.partial";
   }
   system("awk -f scripts/includes.awk pages/journal/index.tmpl > static/journal/index.gmi");
 }
