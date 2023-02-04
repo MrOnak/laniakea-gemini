@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 imageName="grisu48/orion:latest"
-containerName=orion
+containerName=gemini-server
 localConfroot=$(pwd)"/conf"
 localWebroot=$(pwd)"/static"
 
@@ -27,8 +27,11 @@ case $1 in
   stop)
     docker stop $containerName
     ;;
+  update)
+    git pull
+    ;;
   *) 
-    echo "Usage $0 (gen(erate)|start|stop)"
+    echo "Usage $0 (gen(erate)|start|stop|update)"
     exit 1;
     ;;
 esac
