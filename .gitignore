@@ -1,6 +1,6 @@
 conf/
 pages/journal.tmpl
-pages/journal/*.tmpl
+pages/journal/2*.tmpl
 static/*.gmi
 static/journal/*.gmi
 test/
