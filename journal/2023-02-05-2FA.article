@@ -1,7 +1,7 @@
 ## 2023-02-05
-### I'm doing 2FA wrong, and I bet you are, too
+### I'm doing 2FA wrong and I bet you are, too
 
-So, two-factor authentication. 2FA is inherently flawed by the reality we live in. Hear me out.
+Two-factor authentication is inherently flawed by the reality we live in. Hear me out.
 
 The idea of two-factor authentication is simple: Rather than relying only on a password to unlock something, it relies on two factors: 
 
@@ -15,7 +15,7 @@ Sounds good? It is! …until smartphones happen.
 
 What is the most frequent way to reset my password on any given internet site? Right, they mail me a link. I click on the link and I can enter a new password, after entering my PIN (the 2nd factor). Alternatively they mail me a one-time password directly and I'm forced to change it the next time I'm logging in.
 
-My second factor in the 2FA-schema is the Google authenticator app, on my phone.
+My second factor in the 2FA-scheme is the Google authenticator app, on my phone.
 
 Now, the problem is: I can read my mails on my phone.
 
