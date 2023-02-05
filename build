@@ -21,6 +21,8 @@ case $1 in
     awk -f scripts/journal-latest.awk
     # build all "main" pages
     awk -f scripts/pages.awk
+    # build an Atom feed
+    awk -v curdate="$(date --iso-8601=seconds)" -f scripts/atom.awk > static/atom.xml
     ;;
   start)
     docker run -d --name $containerName \

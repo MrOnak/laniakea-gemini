@@ -2,6 +2,7 @@ conf/
 pages/journal.tmpl
 pages/journal/2*.tmpl
 partials/journal-entries.partial
+static/atom.xml
 static/*.gmi
 static/journal/*.gmi
 test/
