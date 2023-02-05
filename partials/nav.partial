@@ -1,4 +1,5 @@
 => /index.gmi home
-=> /journal.gmi journal
+=> /journal.gmi latest
+=> /journal/index.gmi journal
 => /about.gmi about
 => /whoami.gmi whoami

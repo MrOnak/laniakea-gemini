@@ -1,5 +1,5 @@
 BEGIN {
-  articleNum = 10;
+  articleNum = 1;
 
   # find all articles in the journal
   cmd = "ls ./journal/*.article";
