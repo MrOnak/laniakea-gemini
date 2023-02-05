@@ -4,9 +4,9 @@ function getDateAndTitle(file) {
   for (line = 0; line < 2; line++) {
     if (getline inclLine < file > 0) {
       if (line == 0) {
-        date = substr(inclLine, 4);
+        text = substr(inclLine, 4);
       } else if (line == 1) {
-        text = substr(inclLine, 5);
+        date = inclLine;
         break;
       }
     }

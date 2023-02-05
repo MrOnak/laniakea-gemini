@@ -18,7 +18,7 @@ BEGIN {
   # generate template header
   print "<= partials/header.partial" > "pages/journal.tmpl";
   print "" > "pages/journal.tmpl";
-  print "# Laniakea" > "pages/journal.tmpl";
+  print "# my latest journal entry" > "pages/journal.tmpl";
   print "" > "pages/journal.tmpl";
   # add links to newest 10 articles
   for (i = 1; i <= n && i <= articleNum; i++) {
