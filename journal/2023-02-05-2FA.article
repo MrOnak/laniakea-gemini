@@ -1,0 +1,27 @@
+## 2023-02-05
+### I'm doing 2FA wrong, and I bet you are, too
+
+So, two-factor authentication. 2FA is inherently flawed by the reality we live in. Hear me out.
+
+The idea of two-factor authentication is simple: Rather than relying only on a password to unlock something, it relies on two factors: 
+
+One thing (factor) that you know — usually a password.
+
+Another thing (factor) that you have — often that is a gadget which generates a unique and time-dependent PIN.
+
+Anyone only knowing what you know, or only having what you need to have, will not gain access to whatever it is you're protecting. As long as they don't have both, they're not getting in.
+
+Sounds good? It is! …until smartphones happen.
+
+What is the most frequent way to reset my password on any given internet site? Right, they mail me a link. I click on the link and I can enter a new password, after entering my PIN (the 2nd factor). Alternatively they mail me a one-time password directly and I'm forced to change it the next time I'm logging in.
+
+My second factor in the 2FA-schema is the Google authenticator app, on my phone.
+
+Now, the problem is: I can read my mails on my phone.
+
+…and there we have it: Both factors are merged into one. Anyone in possession of my phone has access to the generated PINs and will receive any password-reset mails.
+
+It took the death of my father-in-law to realize this. After he was gone I was making sure we get control over his mails, digital contracts, online banking, and so on. It took maybe two hours and I had every password replaced and had access to all his bank accounts, his internet service provider, Facebook, WhatsApp, Dropbox, you name it. All because I had his phone and we managed to unlock it.
+
+The whole 2FA system is broken by how we use smartphones.
+
