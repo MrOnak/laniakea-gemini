@@ -41,7 +41,7 @@ BEGIN {
   print "  <link href=\"" host "atom.xml\" rel=\"self\" />";
   print "  <updated>" curdate "</updated>";
   print "  <author>";
-  print "    <name>Dominique, Anoikis Nomads</name>";
+  print "    <name>Anoikis Nomads</name>";
   print "  </author>";
   print "  <generator uri=\"https://www.gnu.org/software/gawk\" version=\"5.2.1\">GNU Awk</generator>";
   print "  <id>" host "journal/index.gmi</id>";
