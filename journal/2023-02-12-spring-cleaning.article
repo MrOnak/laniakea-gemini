@@ -1,0 +1,21 @@
+## digital spring cleaning
+2023-02-12
+
+Progress report on my efforts to get off the cloud and centralize my data where I have control over it.
+
+The last week was a bit crazy. As part of my job I am sometimes busy as a trainer for Agile Processes. This week there were two trainings back-to-back which meant teaching and talking Tuesday to Friday and being largely braindead on Saturday. But I got some smaller things done, and actually had a breakthrough with my self-hosting efforts.
+
+Firstly, I made some progress cleaning my digital logins. This means going through my password safe and finding logins that I'm not using anymore. Then going to that website and see if they have a way to request account deletion. If they do, click that and remove the login data from my password safe. It is unbelievable how tedious and time-consuming that is. Granted, most pages nowadays do have account deletion options, but not all of them. Some high profile ones do not, surprisingly. I thought with the GDPR in place this would be a thing in the past… anyway, I got 32 accounts deleted and found 14 accounts that I would *like* to delete but couldn't find how. Of note: Blizzard BattleNet and Surfshark, a VPN provider. Blizzard doesn't really surprise me but a VPN provider that is all about security not having an easy-to-find delete option did. I'll keep at it, there are still 218 accounts in my password safe.
+
+Secondly, more spring cleaning: One of my Google Drives is completely empty now. There wasn't much to begin with but I downloaded it onto my NAS. Thankfully google documents convert very well into LibreOffice files. Got a few more accounts to go through but this makes me happy. Am I paranoid or do you also have a sneaky suspicion that google doesn't actually delete the files, they just don't show them to you anymore? I have no evidence whatsoever to back this up but somehow I feel this is what's really happening.
+
+In other news: I have managed to use Caddy as a reverse proxy for my self-hosted services. It took a bit of reading but setting up Caddy was actually trivially easy once I understood how it works and what I wanted it to do. It now generates Let's Encrypt SSL certificates for all my services without being exposed to the internet at all. This is borderline magic to me. But as a result all my services are now internally served over HTTPS — irrelevant for most, crucial for some — *and* since Caddy is accessible from my VPN, now all my services are, too. We can access our wiki, the task board, RSS aggregator, … from anywhere on the planet now as long as we're connected to the VPN. Fan-fucking-tastic.
+
+Next steps on the self-hosting front will be to set up a centralized authentication provider through the reverse proxy (I'm hoping for Authelia) and then moving my password safe into self-hosting as well. After that it should be smooth sailing. There's a bunch more services that I want to self-host though, like a Contact/Calendar service (WebDAV/CalDAV), a bookmark store, and hopefully something to replace Microsoft Todo.
+
+----
+𝕃𝕚𝕟𝕜𝕤
+
+=> https://caddyserver.com Caddy 2, self-hosted reverse proxy
+=> https://authelia.com Authelia, open-source authentication and authorization server
+
