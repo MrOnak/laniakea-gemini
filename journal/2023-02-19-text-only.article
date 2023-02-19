@@ -1,0 +1,70 @@
+## text-only interfaces
+2023-02-19
+
+I'd like to talk a little bit about how I've changed my private workflow more and more towards text-only interfaces.
+
+It started when I had caught myself sitting in front of my triple-monitor Windows 10 machine, evening after evening, either mindlessly performing “dailes” in one video game or another, or watching YouTube videos that barely interested me. I had stopped *doing* and was only *consuming*, passing time until I could fall asleep.
+
+I felt that what I needed was _less_. Less technicolor, ultraHD, dolby surround. More focus, more purpose and communication.
+
+So, a challenge then: I got my hands on a Raspberry Pi 4, an Argon40 case and a 500GB SSD. This would be my main computer from now on. What followed was more than a month of struggling, trial and error and re-learning Linux. I started off with Ubuntu 22.04. It worked well enough to show me that it would be possible. But ultimately it was too sluggish. I persevered because I could feel that it would be possible to have a good experience with the right setup.
+
+Fast forward a couple of months and without realizing I have set myself up in a niche within a niche within a niche. Using a Raspberry Pi as main computer is a niche but not an oddity anymore. My distribution is Manjaro, that's the second niche. I like the continuous upgrade path… the idea of potentially never having to upgrade a whole distro is pleasing. My window manager is sway, the final niche.
+
+I didn't realize it back when I started but naturally not everything that is available on Linux is available for the ARM64 platform. Yet even less is available on ARM64 Manjaro. But it is far from a barren wasteland, I can make do.
+
+So, how has my interaction with computers changed?
+
+Most importantly, I really like the keyboard focus of SwayWM. I don't use the mouse nearly as often. Keyboard shortcuts to zip around the tiled windows on the two monitors, resizing them, moving them to another virtual screen… fantastic.
+
+Neovim is my main editor. The Primagean on YouTube has showed me the way. I had prior experience with vi itself so neovim was a logical choice, but let's just say there was a learning curve :). I've applied the vi keyboard logic to all other applications that would let me. Consistent keyboard shortcuts are a fantastic thing.
+
+My main file explorer is ranger, another text-user-interface software. It can use vim-keys so that made sense. 
+
+I listen to music through ncmpcpp. Again text-based, again vim-keys.
+
+IRC and matrix access is provided by weechat. This one is relatively new, I like it but I haven't found flow with it yet. 
+
+I largely read mails on mutt, but since for now my mails are on google mail I do miss the possiblity to use the labels as folders. There are howtos to get that to work with mutt, but I haven't been able to.
+
+I have w3m set up to browse the internet, again with vim-keys but I don't do that very much. The internet of today — or the pages I frequent — is really not suited for text-based browsers.
+
+Amfora is my gemini browser. vim-keys TUI goodness.
+
+When I feel the urge to play a game, there are always MUDs, but there's also roguelikes like ADOM or angband. I'd love to play Dwarf Fortress or Rimworld on the Pi but RimWorld refuses to work and Dwarf Fortress would simply melt the Pi, I know that. But to be fair, angband / ADOM are complex beasts in their own right and offer plenty of distraction.
+
+Sometimes I do make music not on my Eurorack sync but on the comp. Here this is through SunVox and ORCA, a quirky little piece of kit.
+
+I've written my own todo app and a calculator for the command line and a bunch of other tools. Coding is fun again!
+
+The list goes on. 
+
+I've themed sway and my main applications nicely, opacity in alacritty terminal emulator provides some gentle eyecandy. A nerdfont provides glyphs way beyond the 8-bit terminals of the past.
+
+Overall this setup is actually good and very much distraction-free. And it is eye-opening.
+
+When I bought the Raspberry I was lucky enough to get a model with 8GB RAM. I wasn't sure how much RAM I'd need back then. Now I know that 4GB would have been plenty.
+
+The only regular concession to modern times is Firefox. This is _by far_ the most sluggish piece of software on this machine. Gmail, YouTube, but even managing my docker containers through Portainer is a meditative experience. Odd. GIMP, LibreOffice etc all start very fast and working with them is good, but working on the web isn't. I'm using the Brave browser on all other devices but it doesn't seem to exist for Manjaro, yet.
+
+I guess this explains why geminispace is so appealing to me. Content first, no distractions. I just wish there would be more non-tech content on gemini. Then again my journal isn't helping either…
+
+So what is my verdict: It is good. I do stuff again, I barely consume. Moving to the Pi and setting up my selfhosting environment has kept me busy for a long while now but the todo lists are getting very short now. I don't miss the modern ways. I do miss a few interactions, I should see that I catch up with those people.
+
+----
+𝕃𝕚𝕟𝕜𝕤
+
+=> gemini://makeworld.space/amfora-wiki/ Amfora gemini browser
+=> https://wiki.manjaro.org/index.php/Manjaro-ARM Manjaro Linux for Raspberry Pi 
+=> gemini://gemini.clehaxze.tw/gemlog/2023/01-25-first-time-messing-with-sway.gmi Sway Window Manager
+=> gemini://freeshell.de/tldr/ranger.gmi ranger
+=> https://neovim.io/ neovim
+=> https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R The Primagean on YouTube
+=> gemini://freeshell.de/tldr/ncmpcpp.gmi ncmpcpp 
+=> http://www.mutt.org/ mutt 
+=> https://weechat.org/ weechat
+=> https://rephial.org/ angband 
+=> https://hundredrabbits.itch.io/orca ORCA
+=> https://github.com/MrOnak/cli_todo my todo app
+=> https://github.com/MrOnak/c_rpncalc my calculator
+
