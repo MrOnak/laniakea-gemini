@@ -1,0 +1,75 @@
+## Self-hosting calendars is a mess
+2023-03-01
+
+Here I was, thinking that hosting a calendar for my family would be easy…
+
+Currently my wife and me use Google Calendars to keep track of birthdays, times where I'm away from home because of work, etc. You know, the usual things. But since I want to get us off the clouds and regain control over our data, the next item on my list was to see if I could host a calendar server myself.
+
+Oh boy.
+
+CalDAV is a relatively old standard, so I thought this was going to be easy. It wasn't. Setting up each individual piece is relatively straight-forward but to come to a cohesive ecosystem wasn't. Here's what I've found:
+
+### TL;DR 
+To sum it up: I believe I got it to work but the final verdict is still out. Relevant components: 
+
+* Radicale CalDAV servers
+* infCloud browser-based client
+* DAVx for CalDAV sync on Android
+* vdirsyncer for CalDAV sync on Linux
+* Simple Calendar Pro on Android (calendar)
+* Tasks.org on Android (todo lists)
+* khal on Linux (calendar)
+
+Keep reading for details on all of the above, and my findings about alternatives.
+
+### CalDAV servers
+I tried Baikal first, but their docker container isn't capable of changing user/group on the host system. Its probably never a big deal but I don't appreciate a service writing files with elevated permissions for no reason. So Baikal was out.
+
+Eventually I settled with Radicale. It apparently purposefully doesn't implement some parts of the standards but I haven't found anything that isn't working. It has a minimal interface, consumes only 20 MB of RAM and does what I need it to do.
+
+One quirk with radicale: Apparently there is no way to share calendars and such between users — although I'm not sure that is actually a server feature. My work around is that aside from the two obvious personal users for my wife and me, there is a third user “family” for the shared things. This would quickly become impractical for larger user bases but it is fine for us.
+
+Another quirk: When creating calendars, you have the choice to configure it to support any combination of calendar events, journal entries and todos. While I'm sure that works on its own, I had a multitude of issues with my calendar clients and ultimatelly settled with three separate ‘calendars’, one for each type.
+
+Since Radicale itself doesn't have _any_ web-based client capability — and why would it — I settled with a custom docker image that integrades the infCloud web client. InfCloud is old and as far as I can tell not in active development but it seems feature complete and most importantly: it just works.
+
+See the link section below for the docker image.
+
+### Linux client
+Next step: getting a TUI client for me on my Linux desktop system.
+
+More fun.
+
+From what I found, there are three main TUI calendar applications, in various stages of maturity: “khal”, “calcurse”, “calcure”
+
+Calcurse seems to be the most mature and it comes with its own way to sync with CalDAV servers. It does support Todos (more on that later). I didn't settle with this because I didn't manage to configure it so that events from different calendars are displayed in different colors. This seems like a minor thing but I really don't want to think about which calendar a certain event is from. The second issue I had was that calcurse doesn't seem to display subtasks of a todo correctly — all subtasks show up as their own todo, without any obvious option to hide them. Try that with a shopping list, it does get messy quickly.
+
+The youngest entry is calcure. I _really_ like the user interface and I will definitely keep an eye on further development. Currently however it doesn't support calendar colors — it has a different approach to indicate that — so it is out.
+
+So I settled with khal. The user interface of khal is alright. vim-keys are a plus and it is functional, but it doesn't win design prices. It also doesn't have support for todos, and it cannot sync with CalDAV servers by itself. But it does have color-support. In a way it is the one app with the most limitations. But is definitely the one that fits my usecase the best.
+
+### Linux CalDAV sync
+To get my data synced from Radicale to khal I'm using the recommended vdirsyncer. Took me a minute to figure out a workable directory layout for multiple calendars but it gets the job done and now syncs quietly in the background via systemd/Timers.
+
+### mobile
+Now, this is another beast.
+
+Step one: Syncing with my Radicale server. I'm using DAVx for that. It is open source and it is available on F-Droid. Again: Took a minute to get the configuration right but that was because _all_ pieces of this puzzle were moving and I had to wipe and restart a few times, not with the app itself.
+
+Step two: A calendar. I'm certain I could simply have continued to use the Google or Samsung calendar apps but I feel that would defeat the purpose of the whole getting-off-the-cloud thing. 
+
+For now I'm using the “Simple Calendar Pro” app on F-Droid. Sadly it supports todos only for the hard-coded local calendar but for appointments, birthdays, meeting reminders etc it is good.
+
+Step three: Todos on Android: I'm currently evaluating the “Tasks” app from F-Droid since it is supported by DAVx. It does support tasks and subtasks — remember the shopping list! — and in contrast to the “jtx Board” app it doesn't throw errors when syncing with Radicale. I haven't gotten rid of Microsoft Todo yet.
+
+
+----
+𝕃𝕚𝕟𝕜𝕤
+
+=> https://hub.docker.com/r/parrazam/radicale-docker docker image of Radicale with infCloud integration
+=> https://f-droid.org/packages/at.bitfire.davdroid/ DAVx CalDAV sync client for Android on F-Droid
+=> https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/ Simple Calendar Pro for Android on F-Droid
+=> https://f-droid.org/en/packages/org.tasks/ Tasks.org for Android on F-Droid
+=> https://github.com/pimutils/vdirsyncer vdirsyncer CalDAV sync for Linux
+=> https://github.com/pimutils/khal Khal Linux calendar TUI client
+
