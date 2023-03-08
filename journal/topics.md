@@ -4,5 +4,5 @@
 * Microsoft telemetry and AdGuard
 * hi-fidelity vs low-fidelity chats
 * F-Droid as alternate app store, de-googling my smartphone
-* showcasing my todo app
+* USB sticks as swiss army knife for PC rescue
 

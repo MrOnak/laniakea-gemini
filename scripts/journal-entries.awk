@@ -19,7 +19,7 @@ BEGIN {
     tmplName = gensub(/\.article$/, ".tmpl", 1, fileName);
     gmiName  = gensub(/\.article$/, ".gmi", 1, fileName);
     # generate .tmpl file for each article
-    print "<= partials/header.journal.partial" > "pages/journal/" tmplName;
+    print "<= partials/header.minimal.partial" > "pages/journal/" tmplName;
     print "<= "files[dates[n - i + 1]] >> "pages/journal/" tmplName;
     print "<= partials/footer.journal.partial" >> "pages/journal/" tmplName;
     # now call another awk script to generate the .gmi from the .tmpl

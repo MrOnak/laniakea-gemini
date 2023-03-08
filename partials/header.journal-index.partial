@@ -1,6 +1,3 @@
-<= partials/header.partial
-
-# all journals
-
-This is a chronological list of all journal entries.
+<= partials/header.minimal.partial
+# A chronological list of all journal entries.
 
